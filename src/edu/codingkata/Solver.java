@@ -21,7 +21,7 @@ public class Solver {
 
     public boolean secondCase(String brackets){
         int i=0,j=1;
-        while(j <= brackets.length()){
+        while(j <= brackets.length()/2){
             char bracket = brackets.charAt(i);
             char bracketPair = brackets.charAt(j);
 
