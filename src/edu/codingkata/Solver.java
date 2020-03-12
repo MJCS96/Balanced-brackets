@@ -18,7 +18,6 @@ public class Solver {
         }
         return true;
     }
-    aa
 
     public boolean secondCase(String brackets){
         int i=0,j=1;
